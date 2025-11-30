@@ -73,13 +73,13 @@ Journals and funders now ask for:
 
 ---
 
-## 5. Why This Language Matters
+## 5. Why This Is Important to Understand
 
 | Benefit | Description |
 |--------|-------------|
 | 🛡️ Protects Patients | Prevents accidental re-identification |
 | ✅ Complies with NIH | Meets DMS Plan expectations |
-| 🧭 Clarifies Roles | The registry is the gatekeeper—not the PI |
+| 🧭 Clarifies Roles | The registry owner is the gatekeeper, not the external PI |
 | 🧠 Avoids Mistakes | Prevents premature or inappropriate data sharing |
 | 🤝 Builds Trust | Maintains public confidence in research participation |
 
