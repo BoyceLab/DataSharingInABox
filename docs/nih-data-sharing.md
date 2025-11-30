@@ -62,11 +62,11 @@ Journals and funders now ask for:
 - Clear access pathways for other researchers
 
 ❌ Do **not** post registry data on:
-- GitHub
-- Kaggle
-- Dryad
-- Figshare
-- Supplemental materials
+  - GitHub
+  - Kaggle
+  - Dryad
+  - Figshare
+  - Supplemental materials
   
 Without checking with your Institutional Review Board first!
 
