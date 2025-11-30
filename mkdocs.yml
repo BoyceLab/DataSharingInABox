@@ -26,7 +26,14 @@ nav:
   - IRB Documentation: irb.md
   - FAQ: faq.md
   - Acknowledgements: acknowledgements.md
-  - Key Resources: key_resources.md  
+  - Key Resources:
+      - Your Organization(s) Here: key_resources.md
+      - NIH Data Sharing Language Explained: nih-data-sharing.md
+      - PubMed: https://pubmed.ncbi.nlm.nih.gov/
+      - ClinicalTrials.gov: https://clinicaltrials.gov/
+      - NIH Sharing Policies: https://grants.nih.gov/policy-and-compliance/policy-topics/sharing-policies
+      - FDA on Real-World Evidence: https://www.fda.gov/science-research/science-and-research-special-topics/real-world-evidence
+      - EMA on Real-World Evidence: https://www.ema.europa.eu/en/about-us/how-we-work/data-regulation-big-data-other-sources/real-world-evidence
 
 markdown_extensions:
   - meta
