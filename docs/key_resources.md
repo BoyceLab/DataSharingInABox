@@ -6,6 +6,9 @@ This section contains helpful links related to patient registry research, data s
 
 - *[Insert your institution or program here]*
 
+## Publications from our registry 
+- *[Insert links or full-text downloads here]*
+- 
 ## Research & Policy Resources
 
 - [PubMed](https://pubmed.ncbi.nlm.nih.gov/)
