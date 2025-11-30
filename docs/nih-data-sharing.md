@@ -87,6 +87,6 @@ Journals and funders now ask for:
 
 ## Key NIH Resources
 
-- [NIH Scientific Data Sharing Homepage](https://sharing.nih.gov)
-- [NIH DMS Policy Summary](https://sharing.nih.gov/data-management-and-sharing-policy)
-- [NIH on Sharing & Preservation Limitations](https://sharing.nih.gov/data-management-and-sharing-policy/sharing-and-preservation)
+- [NIH Scientific Data Sharing Homepage](https://sharing.nih.gov){: target="_blank" }
+- [NIH DMS Policy Summary](https://sharing.nih.gov/data-management-and-sharing-policy){: target="_blank" }
+- [NIH on Sharing & Preservation Limitations](https://sharing.nih.gov/data-management-and-sharing-policy/sharing-and-preservation) {: target="_blank" }
