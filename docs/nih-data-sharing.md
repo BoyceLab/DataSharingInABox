@@ -63,9 +63,12 @@ Journals and funders now ask for:
 
 ❌ Do **not** post registry data on:
 - GitHub
+- Kaggle
 - Dryad
 - Figshare
 - Supplemental materials
+  
+Without checking with your Institutional Review Board first!
 
 ✅ Instead, use NIH-compatible controlled access language:
 
