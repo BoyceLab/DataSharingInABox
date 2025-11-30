@@ -1,6 +1,9 @@
 # Understanding NIH Data Sharing Language in Registry Agreements
 
-The inclusion of NIH Data Sharing language in data use agreements is essential for ensuring compliance with federal policy, protecting patient privacy, and supporting responsible scientific research.
+> ⚠️ **Disclaimer**  
+> This page provides a general explanation of NIH data sharing expectations, particularly as they apply to patient registries. It is **not legal or regulatory advice**. Please consult your institution’s **IRB or regulatory officials** to determine how these policies apply to your specific registry and data governance practices.
+
+## The inclusion of NIH Data Sharing language in data use agreements is essential for ensuring compliance with federal policy, protecting patient privacy, and supporting responsible scientific research.
 
 This page outlines why such language is important, what it requires of investigators, and how it applies specifically to patient registries such as those managed by **[Registry Owner/Organization]**.
 
