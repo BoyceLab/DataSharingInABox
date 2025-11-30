@@ -1,17 +1,12 @@
-# mkdocs.yml - Configuration for your MkDocs site
 site_name: DataSharingInABox
-site_url: https://boycelab.github.io/DataSharingInABox/
+site_url: https://boycelab.github.io/DataSharingInABox
 repo_url: https://github.com/BoyceLab/DataSharingInABox
 repo_name: BoyceLab/DataSharingInABox
 
 theme:
   name: material
-  logo: assets/img/logo.png  # Replace with your logo path
-  favicon: assets/img/logo.png  # Replace with your favicon path
   font:
     text: EB Garamond
-  palette:
-    scheme: default
   features:
     - navigation.tabs
     - navigation.top
@@ -23,9 +18,8 @@ nav:
   - Home: index.md
   - Data Dictionary: data-dictionary.md
   - Derived Fields: derived-fields.md
-  - Data Use Agreement: dua.md
-  - IRB Information: irb.md
-  - Acknowledgements: acknowledgements.md
+  - IRB Documentation: irb.md
+  - Data Use Agreements: dua.md
 
 markdown_extensions:
   - meta
@@ -54,6 +48,3 @@ plugins:
 
 extra:
   generator: false
-
-extra_css:
-  - assets/css/custom.css
