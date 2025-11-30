@@ -1,7 +1,7 @@
 # mkdocs.yml - Configuration for your MkDocs site
 site_name: "Patient Registry Data Sharing Template"   # <-- Change this to your Registry's name
-site_url: ""                    # (Optional) URL where the site will be hosted (e.g., GitHub Pages link)
-repo_url: ""                    # (Optional) link to the source repository if you want it visible on site
+site_url: "https://boycelab.github.io/DataSharingInABox/" # (Optional) URL where the site will be hosted (e.g., GitHub Pages link)
+repo_url: "https://github.com/BoyceLab/DataSharingInABox"                    # (Optional) link to the source repository if you want it visible on site
 theme:
   name: material
   logo: assets/images/logo.png          # Path to logo image (put your logo in docs/assets/images/)
