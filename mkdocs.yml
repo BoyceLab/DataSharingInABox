@@ -16,6 +16,7 @@ theme:
 
 nav:
   - Home: index.md
+  - How to Customize This Template: customization.md
   - Data Dictionary: data-dictionary.md
   - Derived Fields: derived-fields.md
   - IRB Documentation: irb.md
