@@ -1,37 +1,64 @@
+---
+title: Data Use Agreement & Access Instructions
+---
+
 !!! warning "Sample Content Only"
-    This page contains **example language and placeholders** intended to help registry teams set up their own data sharing site.  
-    Please **replace all placeholder text** with content specific to your own registry, governance policies, and workflows.
+    This page includes sample terms and procedures adapted from other registries. Please update all placeholders and ensure your local legal and governance teams review your final version.
 
-# Data Use Agreements (DUA) & Data Access
+# Data Use Agreement (DUA) & Research Data Access
 
-*This page outlines how to request access to the registry data and the terms for using the data.* Transparency about data use policies helps researchers understand the requirements before they attempt to obtain the data.
+This page outlines the procedures and terms for requesting access to data from the **[Registry Name]**, maintained by **[Registry Organization]**. These policies are designed to ensure secure and ethical use of patient-level registry data.
 
-## How to Request Data
+## 🔑 How to Request Data
 
-Interested researchers should [describe the process – e.g., "contact the registry coordinator at your@email.org", or "fill out the data request form (link)"].
-Include any prerequisites (for example, *must be affiliated with an institution*, or *provide a research plan*).
+All data requests must include:
 
-_For a complete overview, see [Information for Researchers](researchers.md)._
+- A completed data request form (linked or attached by your registry)
+- Proof of IRB submission or approval
+- A signed Confidentiality Agreement (template available upon request)
+- A detailed list of requested variables or data domains
 
-## Data Use Agreement (DUA)
+To initiate a request, contact **[datarequests@yourorganization.org]** or visit our [Data Request Portal](https://yourorg.org/data-portal).
 
-Before accessing the data, researchers will need to sign a Data Use Agreement. This agreement ensures that:
+🕐 *Standard review time is 3–6 months depending on complexity.*
 
-- The data will only be used for the approved research purpose.
-- No attempts will be made to re-identify individual participants.
-- Data will be stored securely and not shared further without permission.
-- [Add any other conditions specific to your registry here.]
+> 💡 Note: Industry or commercial requests may follow a separate process. Contact **[industryrequests@yourorganization.org]** for more information.
 
-You can download a template DUA [provide link if available] or request one via email. The DUA must be reviewed and co-signed by an authorized official at the researcher’s institution.
+---
 
-## Citation and Acknowledgement
+## 🔒 Terms and Conditions
 
-If you use the registry data in a publication or presentation, you are expected to acknowledge the data source. For example:
+Access is contingent upon full compliance with these data use requirements:
 
-*“Data were provided by the [Registry Name], with appropriate IRB approval and data use agreements.”*
+- Only non-identifiable data will be shared unless approved under a Limited Data Set with additional agreements.
+- The dataset may only be used for the specific project outlined in your application.
+- No attempts to re-identify participants are permitted.
+- Data must be stored securely and may not be redistributed.
+- Investigators must submit abstracts 7 days and manuscripts 30 days prior to submission for registry review.
+- Projects must be completed within 3 years of data access; extensions may be requested.
+- Upon study completion, all data files must be destroyed and written confirmation sent to the registry.
 
-Check if your registry has specific language for acknowledgments or if you are required to credit a funding source.
+📝 Suggested Acknowledgment Language:  
+> “The authors thank [Registry Organization] for providing access to [Registry Name] data for this study. We extend our gratitude to the individuals who contributed data and the participating sites.”
 
-## Contact for Data Access
+📢 Suggested Data Availability Statement:  
+> “Data are available upon reasonable request through the [Registry Organization]'s Research Oversight Committee. Contact [datarequests@yourorg.org] for details. Access restrictions apply to protect patient privacy.”
 
-[Insert contact information here – e.g., email address or help desk link]
+---
+
+## 📄 Signature Requirements
+
+The following must be signed and submitted:
+
+- Confidentiality Agreement
+- (If applicable) Information Use Agreement (IUA) for Limited Data Sets
+- IRB approval letter
+
+The **Principal Investigator (PI)** must be affiliated with the institution responsible for data analysis. Changes in personnel or institution must be reported to **[Registry Organization]**.
+
+---
+
+## Citation
+
+> *Adapted with permission from the Cystic Fibrosis Foundation: CFFPR Data Application and Confidentiality Agreement.*
+
