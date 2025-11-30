@@ -1,3 +1,7 @@
+!!! warning "Sample Content Only"
+    This page contains **example language and placeholders** designed to help registry teams build their own data sharing site.  
+    Please **replace all placeholder text** with details specific to your own project, policies, and governance requirements.
+    
 # Derived Fields Documentation
 
 *This page explains any derived or calculated fields in the registry dataset.* Derived fields are those not collected directly, but computed from other data. Documenting them is important for transparency and reproducibility.
