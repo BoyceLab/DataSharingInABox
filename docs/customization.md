@@ -13,8 +13,8 @@ This template helps patient registry teams create a public-facing website to sha
 You have two options:
 
 - **Use GitHub’s “Use this template” button** (recommended):
-  - Go to the [template repository](https://github.com/YOUR-ORG/patient-registry-template).
-  - Click **"Use this template"** to create your own copy.
+  - Go to the [template repository](https://github.com/BoyceLab/DataSharingInABox/tree/main).
+  - Click **"Use this template"** in the upper right to create your own copy.
   - Name your new repository (e.g., `my-registry-docs`) and choose whether it will be public or private.
 
 - **Manual download**:
