@@ -1,3 +1,7 @@
+!!! warning "Sample Content Only"
+    This page contains **example language and placeholders** designed to help registry teams build their own data sharing site.  
+    Please **replace all placeholder text** with details specific to your own project, policies, and governance requirements.
+    
 # Data Use Agreements (DUA) & Data Access
 
 *This page outlines how to request access to the registry data and the terms for using the data.* Transparency about data use policies helps researchers understand the requirements before they attempt to obtain the data.
