@@ -1,5 +1,6 @@
 # Data Sharing In A Box
 
+
 ## 🚀 How to Set Up and Use the Patient Registry Template
 
 This template helps patient registry teams create a public-facing website to share data documentation, governance policies, and data access instructions. It’s built using [MkDocs](https://www.mkdocs.org/) with the [Material theme](https://squidfunk.github.io/mkdocs-material/).
