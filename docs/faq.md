@@ -1,3 +1,7 @@
+!!! warning "Sample Content Only"
+    This page contains **example language and placeholders** designed to help registry teams build their own data sharing site.  
+    Please **replace all placeholder text** with details specific to your own project, policies, and governance requirements.
+    
 # Frequently Asked Questions (FAQ)
 
 ## 📌 What is this website?
