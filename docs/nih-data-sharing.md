@@ -22,7 +22,7 @@ As of **January 25, 2023**, the NIH requires all funded research to include a Da
 - Follow their DMS Plan as a condition of funding
 - Justify any restrictions or limits on sharing
 
-If registry data is included, your DMS Plan must not violate privacy protections or registry policies.
+If registry data are included, your DMS Plan must not violate privacy protections or registry policies.
 
 ---
 
@@ -66,7 +66,7 @@ Journals and funders now ask for:
   - Kaggle
   - Dryad
   - Figshare
-  - Supplemental materials
+  - Supplemental materials in manuscripts
   
 Without checking with your Institutional Review Board first!
 
@@ -92,4 +92,4 @@ Without checking with your Institutional Review Board first!
 
 - [NIH Scientific Data Sharing Homepage](https://sharing.nih.gov){: target="_blank" }
 - [NIH DMS Policy Summary](https://sharing.nih.gov/data-management-and-sharing-policy){: target="_blank" }
-- [NIH on Sharing & Preservation Limitations](https://sharing.nih.gov/data-management-and-sharing-policy/sharing-and-preservation) {: target="_blank" }
+- [NIH on Sharing & Preservation Limitations](https://sharing.nih.gov/data-management-and-sharing-policy/sharing-and-preservation){: target="_blank" }
