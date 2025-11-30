@@ -1,3 +1,7 @@
+!!! warning "Sample Content Only"
+    This page contains **example language and placeholders** designed to help registry teams build their own data sharing site.  
+    Please **replace all placeholder text** with details specific to your own project, policies, and governance requirements.
+    
 # Data Dictionary
 
 *This page provides a detailed data dictionary for the registry.* Below is a list of the key data fields collected, along with their definitions and allowable values. Use this as a reference to understand the dataset.
