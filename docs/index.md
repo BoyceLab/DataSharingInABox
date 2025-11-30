@@ -1,4 +1,6 @@
-# Welcome to the Registry Data Sharing Portal
+# Welcome to the Registry Data Sharing Portal Template!
+
+👉 Learn how to customize this template in the [setup guide](customization.md).
 
 **About this Registry:** *[Provide a brief description of your patient registry here.]* This website is a one-stop location for documentation about the registry’s data and how to access it. 
 
