@@ -19,10 +19,11 @@ theme:
 nav:
   - Home: index.md
   - How to Customize This Template: customization.md
+  - Information for Researchers: researchers.md 
+  - Data Use Agreement: dua.md
   - Data Dictionary: data-dictionary.md
   - Derived Fields: derived-fields.md
   - IRB Documentation: irb.md
-  - Data Use Agreements: dua.md
   - FAQ: faq.md
   - Acknowledgements: acknowledgements.md
   - Key Resources: key_resources.md  
