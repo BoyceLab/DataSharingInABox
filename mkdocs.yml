@@ -23,6 +23,9 @@ nav:
   - Derived Fields: derived-fields.md
   - IRB Documentation: irb.md
   - Data Use Agreements: dua.md
+  - FAQ: faq.md
+  - Acknowledgements: acknowledgements.md
+  - Key Resources: key_resources.md  
 
 markdown_extensions:
   - meta
