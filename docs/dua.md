@@ -1,7 +1,3 @@
----
-title: Data Use Agreement & Access Instructions
----
-
 !!! warning "Sample Content Only"
     This page includes sample terms and procedures adapted from other registries. Please update all placeholders and ensure your local legal and governance teams review your final version.
 
