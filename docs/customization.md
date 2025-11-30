@@ -1,6 +1,9 @@
 # Data Sharing In A Box
 
-
+!!! warning "Sample Content Only"
+    This page contains **example language and placeholders** designed to help registry teams build their own data sharing site.  
+    Please **replace all placeholder text** with details specific to your own project, policies, and governance requirements.
+    
 ## ☀️ How to Set Up and Use the Patient Registry Template
 
 This template helps patient registry teams create a public-facing website to share data documentation, governance policies, and data access instructions. It’s built using [MkDocs](https://www.mkdocs.org/) with the [Material theme](https://squidfunk.github.io/mkdocs-material/).
