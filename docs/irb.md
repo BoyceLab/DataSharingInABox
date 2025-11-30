@@ -1,3 +1,7 @@
+!!! warning "Sample Content Only"
+    This page contains **example language and placeholders** designed to help registry teams build their own data sharing site.  
+    Please **replace all placeholder text** with details specific to your own project, policies, and governance requirements.
+    
 # IRB Information
 
 *This section describes the Institutional Review Board (IRB) or ethics approvals for the registry.* Proper ethics oversight ensures that data collection and sharing comply with regulations and protect participants.
