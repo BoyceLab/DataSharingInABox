@@ -78,6 +78,13 @@ To enable deployment:
 
 ---
 
+### License
+
+You are welcome to adapt this template for your own patient registry.  
+All content is provided under a **CC BY 4.0 license**. Please credit the original source.  
+[Learn more about the license](https://creativecommons.org/licenses/by/4.0/)
+
+
 ### ✅ Need Help?
 If you're new to MkDocs or run into issues:
 - Visit the [MkDocs documentation](https://www.mkdocs.org/).
