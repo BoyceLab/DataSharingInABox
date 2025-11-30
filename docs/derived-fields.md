@@ -4,7 +4,7 @@
     
 # Derived Fields Documentation
 
-*This page explains any derived or calculated fields in the registry dataset.* Derived fields are those not collected directly, but computed from other data. Documenting them is important for transparency and reproducibility.
+*This page explains any derived or calculated fields in the registry data set.* Derived fields are those not collected directly, but computed from other data. Documenting them is important for transparency and reproducibility.
 
 For each derived variable, explain how it’s calculated or defined. For example:
 
