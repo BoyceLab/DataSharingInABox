@@ -5,8 +5,8 @@ repo_name: BoyceLab/DataSharingInABox
 
 theme:
   name: material
-  logo: blob/main/assets/img/IMG_7932.png
-  favicon: blob/main/assets/img/IMG_7932.png  # Optional, uses same image for favicon
+  logo: assets/img/IMG_7932.png
+  favicon: assets/img/IMG_7932.png  # Optional, uses same image for favicon
   font:
     text: EB Garamond
   features:
