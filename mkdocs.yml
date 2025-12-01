@@ -21,9 +21,9 @@ nav:
   - How to Customize This Template: customization.md
   - Information for Researchers:
       - Overview: researchers.md
+      - Data Use Agreement: dua.md
       - End User Survey: survey.md
       - Sharing Platforms & Technologies: data-platforms.md
-  - Data Use Agreement: dua.md
   - Data Dictionary: data-dictionary.md
   - Derived Fields: derived-fields.md
   - IRB Documentation: irb.md
