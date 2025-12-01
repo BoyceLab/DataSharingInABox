@@ -1,45 +1,70 @@
 # Welcome to Your Patient Registry Data Sharing Ecosystem Template
 
-This open-source template is designed to help organizations with patient registries create a professional, public-facing website that shares information about your data, governance, and access procedures.
+This open-source website template is designed to help patient registry teams create a professional, public-facing portal for sharing information about your data, governance policies, and access procedures.
 
-It’s built using [MkDocs](https://www.mkdocs.org/) with the [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/) theme and is intended to make it easier for your team to support transparent and responsible data sharing.
+Built with [MkDocs](https://www.mkdocs.org/) and the [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/) theme, this site supports transparent, ethical, and well-documented data sharing — even if your team has limited technical resources.
 
 ---
 
-## 🌟 What You’ll Find Here
+## 🌟 What’s Included
 
-This site template includes pre-structured pages and suggested content such as:
+The template comes with pre-built pages and sample language for:
 
-- A **Data Dictionary** page to describe variables available to researchers
-- A **Derived Fields** section for calculated variables or harmonized fields
-- A **DUA & Access Instructions** page to guide researchers through requesting data
-- An **IRB Documentation** page to describe ethics and regulatory oversight
-- Sample **FAQs**, **Acknowledgments**, and links to key policy resources
-- A growing **Key Resources** section for federal and international guidance
+- A **Data Dictionary** outlining available variables
+- **Derived Fields** describing calculated or harmonized data
+- **Information for Researchers**, including DUA & access instructions
+- **IRB Documentation** explaining ethical oversight
+- Sample **FAQs**, **Acknowledgments**, and policy references
+- A curated **Key Resources** page for external guidance and learning
+
+---
+
+## 🧪 Potential Use Cases for Shared Registry Data
+
+This section helps you explain how your registry data can support meaningful research and clinical discovery. Example use cases:
+
+### Academic Research
+- Analyze disease progression or treatment patterns
+- Explore demographic or clinical subgroup trends
+- Conduct retrospective observational studies
+
+### Clinical & Quality Benchmarking
+- Compare outcomes across sites or networks
+- Identify variation in care delivery
+
+### Industry Collaboration
+- Design trials with real-world inclusion criteria
+- Discover unmet clinical or diagnostic needs
+
+### Public Health & Policy
+- Estimate prevalence or geographic distribution
+- Inform guideline development or advocacy strategies
+
+> ✨ Your team can edit or expand this list to reflect your registry’s goals.
 
 ---
 
 ## 🛠️ Built for Customization
 
-This template is fully editable and modular. Your team can:
+You can fully adapt the site to match your registry:
 
-- Replace placeholder text with your own registry content
-- Add or remove pages from the navigation
-- Upload your organization’s logo and adjust colors or layout
-- Host the site publicly with GitHub Pages or another provider
+- Swap in your own content and structure
+- Update branding and page layout
+- Add new tabs or link to external sites
+- Publish via GitHub Pages or other hosting platforms
 
-Not technical? No problem. The [How to Customize This Template](customization.md) page walks you through each step with clear instructions.
+See the [How to Customize This Template](customization.md) guide for setup instructions.
 
 ---
 
 ## ⚠️ Disclaimer
 
-All text in this template is for demonstration purposes only. Please work with your IRB or data governance team to ensure your final language complies with local policies and regulations.
+All content is provided for demonstration only. Registry teams must ensure final language aligns with local regulations and IRB-reviewed protocols.
 
 ---
 
-## 🔓 Open Source and Adaptable
+## 🔓 License and Attribution
 
-This project is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/), so you're free to copy, adapt, and reuse the template — just provide attribution.
+This project is available under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). You may copy, reuse, or adapt it for your own registry — just include proper attribution.
 
-Let’s build a culture of transparent, ethical, and useful data sharing in patient-centered research.
+Let’s build a culture of transparent, ethical, and collaborative data sharing in patient-centered research.
