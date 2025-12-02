@@ -79,6 +79,7 @@
 ## 📌 Summary
 
 Use this checklist to identify gaps before inviting data access requests — especially when managing diverse or sensitive datasets.  
+
 Consider publishing a **data inventory table** summarizing each source, its variables, access level, and documentation status.
 
 ---
