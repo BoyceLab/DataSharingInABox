@@ -68,21 +68,4 @@ Treat external data sharing as a strategic endeavor. With governance, technical 
 
 ---
 
-### References
-1. [https://www.ohdsi.org/data-standardization/the-common-data-model/](https://www.ohdsi.org/data-standardization/the-common-data-model/)
-6. [https://privacyruleandresearch.nih.gov/](https://privacyruleandresearch.nih.gov/)
-7. [https://opentrials.net/](https://opentrials.net/)
-8. [https://www.fda.gov/science-research/fda-science-jobs/fda-and-open-data](https://www.fda.gov/science-research/fda-science-jobs/fda-and-open-data)
-9. [https://fairsharing.org/](https://fairsharing.org/)
-10. [https://github.com/OHDSI/CommonDataModel](https://github.com/OHDSI/CommonDataModel)
-11. [https://www.ncbi.nlm.nih.gov/gap](https://www.ncbi.nlm.nih.gov/gap)
-12. [https://datasciences.nih.gov/standards/federated-models](https://datasciences.nih.gov/standards/federated-models)
-13. [https://www.synapse.org/](https://www.synapse.org/)
-14. [https://www.ejprarediseases.org/ejprd-metadata-model/](https://www.ejprarediseases.org/ejprd-metadata-model/)
-15. [https://www.rarediseasesnetwork.org/rdcrn](https://www.rarediseasesnetwork.org/rdcrn)
-16. [https://www.ga4gh.org/](https://www.ga4gh.org/)
-17. [https://doi.org/10.1038/s41591-018-0279-3](https://doi.org/10.1038/s41591-018-0279-3)
-18. [https://learn.rare-x.org/data-governance](https://learn.rare-x.org/data-governance)
-19. [https://doi.org/10.1371/journal.pbio.3000730](https://doi.org/10.1371/journal.pbio.3000730)
-20. [https://www.nature.com/articles/sdata201618](https://www.nature.com/articles/sdata201618)
-21. [https://doi.org/10.1089/bio.2014.0087](https://doi.org/10.1089/bio.2014.0087)
+
