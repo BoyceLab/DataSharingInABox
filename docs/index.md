@@ -1,6 +1,6 @@
 # Welcome to Your Patient Registry Data Sharing Ecosystem Template
 
-This open-source website template is designed to help patient registry teams create a professional, public-facing portal for sharing information about your data, governance policies, and access procedures.
+This open-source website template is designed to help patient registry teams create a professional, public-facing portal for sharing information about their data, governance policies, and access procedures.
 
 Built with [MkDocs](https://www.mkdocs.org/) and the [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/) theme, this site supports transparent, ethical, and well-documented data sharing — even if your team has limited technical resources.
 
