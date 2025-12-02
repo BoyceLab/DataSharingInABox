@@ -30,6 +30,7 @@ nav:
       - Derived Fields: derived-fields.md
       - IRB Documentation: irb.md
   - Data Sharing Readiness: data-readiness.md
+  - External Repositories:  external-repository.md
   - Key Resources:
       - Your Organization(s) Here: key_resources.md
       - NIH Data Sharing Language Explained: nih-data-sharing.md
