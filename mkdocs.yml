@@ -15,7 +15,7 @@ theme:
     - search.suggest
     - search.highlight
     - content.code.copy
-  
+
 nav:
   - Home: index.md
   - How to Customize This Template: customization.md
@@ -38,6 +38,7 @@ nav:
       - FDA on Real-World Evidence: https://www.fda.gov/science-research/science-and-research-special-topics/real-world-evidence
       - EMA on Real-World Evidence: https://www.ema.europa.eu/en/about-us/how-we-work/data-regulation-big-data-other-sources/real-world-evidence
       - Acknowledgements: acknowledgements.md
+
 markdown_extensions:
   - meta
   - admonition
@@ -62,8 +63,13 @@ markdown_extensions:
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
 plugins:
   - search
+  - mermaid2
 
 extra:
   generator: false
+
+extra_javascript:
+  - https://unpkg.com/mermaid@10.6.1/dist/mermaid.min.js
