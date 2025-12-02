@@ -22,19 +22,7 @@ Before data access can be granted, all investigators must:
 
 ## 🔄 Data Access Process
 
-Below is a general overview of the application and review workflow:
-
-```mermaid
-graph TD
-  A[Investigator submits request] --> B[Data Access Committee (DAC) reviews application]
-  B -->|Approved| C[IRB confirmed & DUA signed]
-  C --> D[Registry prepares data]
-  D --> E[Researcher receives access]
-  E --> F[Analysis and results]
-  F --> G[Publication and registry notification]
-  B -->|Revisions requested| H[Investigator revises and resubmits]
-  B -->|Rejected| I[Investigator notified]
-```
+![Data Access Process](assets/img/data-access-process.svg)
 
 ---
 
