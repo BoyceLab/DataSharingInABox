@@ -22,7 +22,7 @@ Before data access can be granted, all investigators must:
 
 ## 🔄 Data Access Process
 
-![Data Access Process](assets/img/data-access-process.svg)
+![Data Access Process](assets/img/data-access-process.png)
 
 ---
 
