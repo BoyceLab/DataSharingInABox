@@ -12,10 +12,10 @@ The template comes with pre-built pages and sample language for:
 - A **Data Dictionary** outlining available variables
 - **Derived Fields** describing calculated or harmonized data
 - **Information for Researchers**, including:
-  - Data Use Agreement (DUA) and access instructions
-  - IRB and ethical oversight documentation
-  - End User Survey to assess technical and governance needs
-  - Sharing platforms, data environments, and omics considerations
+    - Data Use Agreement (DUA) and access instructions
+    - IRB and ethical oversight documentation
+    - End User Survey to assess technical and governance needs
+    - Sharing platforms, data environments, and omics considerations
 - A **Data Sharing Readiness** checklist to help registry teams prepare documentation, inventories, and governance for sharing
 - A visual **Data Access Process** for user guidance that you can modify and convert to a flow chart
 - Sample **FAQs**, **Acknowledgments**, and policy references
