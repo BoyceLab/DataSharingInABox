@@ -21,28 +21,31 @@ The template comes with pre-built pages and sample language for:
 
 ## 🧪 Potential Use Cases for Shared Registry Data
 
-This section helps you explain how your registry data can support meaningful research and clinical discovery. Example use cases:
+This section helps you explain how your registry data can support meaningful research, translational science, and clinical discovery. Example use cases:
 
 ### Academic Research
 - Analyze disease progression or treatment patterns
 - Explore demographic or clinical subgroup trends
 - Conduct retrospective observational studies
+- Correlate clinical data with **biospecimen-based phenotyping**
+- Integrate registry data with **genomic, transcriptomic, or proteomic** analyses
 
 ### Clinical & Quality Benchmarking
 - Compare outcomes across sites or networks
 - Identify variation in care delivery
+- Generate insights to inform care improvement initiatives
 
 ### Industry Collaboration
-- Design trials with real-world inclusion criteria
+- Design trials with real-world inclusion and exclusion criteria
 - Discover unmet clinical or diagnostic needs
+- Use real-world data to identify biomarkers or stratify patient populations
 
 ### Public Health & Policy
-- Estimate prevalence or geographic distribution
-- Inform guideline development or advocacy strategies
+- Estimate disease prevalence or geographic distribution
+- Model healthcare utilization or economic burden
+- Inform guideline development or public health strategies
 
 > ✨ Your team can edit or expand this list to reflect your registry’s goals.
-
----
 
 ## 🛠️ Built for Customization
 
