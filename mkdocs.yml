@@ -48,8 +48,11 @@ markdown_extensions:
   - tables
   - toc:
       permalink: false
-  - pymdownx.details
-  - pymdownx.superfences
+   - pymdownx.details
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
   - pymdownx.tabbed:
       alternate_style: true
   - pymdownx.tasklist:
