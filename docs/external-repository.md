@@ -1,0 +1,88 @@
+# Sharing Data with External Repositories: Considerations for Patient Registry Owners
+
+Sharing data from a patient registry with external data repositories or aggregators can greatly amplify the impact of that data, but it requires careful planning and governance. This guidance is intended for all stakeholders involved in a registry – technical leads, program managers, and governance staff alike – and covers **benefits**, **legal/ethical considerations**, **data formatting and harmonization**, **privacy concerns**, **long-term stewardship**, and **emerging models** (like federated networks and the OMOP common data model). These considerations apply across data types (clinical data, genomic data, patient-reported outcomes, etc.).
+
+## Benefits of Participating in External Data Platforms
+
+* Accelerate research and insights, particularly for rare diseases or small populations
+* Gain access to advanced analytics and domain expertise
+* Increase visibility and impact through collaboration and broader dissemination
+* Support public health and drug development via real-world data
+
+## Governance, Ethical, and Legal Considerations
+
+* **Data Ownership and Rights**: Confirm your ability to share and retain control where needed.
+* **Participant Consent and IRB**: Ensure data sharing aligns with consents and ethical approvals.
+* **Data Sharing Agreements**: Use formal contracts to govern use, access, and attribution.
+* **Oversight**: Establish a Data Access Committee and transparent approval processes.
+* **Regulatory Compliance**: Align with HIPAA, GDPR, and other privacy regulations.
+
+**Key Questions:**
+
+1. Who owns and controls the data post-sharing?
+2. What is allowed under the data sharing agreement?
+3. How is privacy protected?
+4. What oversight does the registry retain?
+5. What are the costs and resource needs?
+
+## Data Formatting and Harmonization
+
+* **Common Data Models**: Adopt standards like OMOP for interoperability.
+* **Terminologies and Ontologies**: Use controlled vocabularies (e.g., SNOMED CT, LOINC).
+* **Metadata and Documentation**: Provide data dictionaries and provenance details.
+* **Curation Support**: Coordinate with repositories on standardization and validation.
+
+## Privacy and Security Considerations
+
+* **De-identification**: Remove direct/indirect identifiers per HIPAA and GDPR.
+* **Sensitive Data**: Treat genomics and biomarker data with extra caution.
+* **Security Standards**: Ensure encrypted storage, secure transfers, and role-based access.
+* **Transparency**: Communicate plans to participants and oversight boards.
+
+## Long-Term Data Stewardship
+
+* **Retention**: Understand repository policies for long-term storage and sunsetting.
+* **Versioning**: Plan for data updates and user notifications.
+* **Monitoring Use**: Track and report on downstream data access and use.
+* **Revocation and Misuse**: Have plans for removing or correcting data if needed.
+* **Attribution**: Ensure acknowledgment policies are in place.
+
+## Federated Data Sharing Models
+
+* **Definition**: Keep data local, share queries and aggregated results only.
+* **Advantages**: Enhanced privacy, local control, compliance.
+* **Infrastructure**: Requires standardization and compatible software.
+* **Use Cases**: Ideal for cross-jurisdiction collaboration or high-sensitivity data.
+
+## Data Types to Consider
+
+* **Clinical Data**: Standardized structured data (e.g., labs, medications)
+* **Genomics/Biomarkers**: Consider file types, repositories, and privacy
+* **Patient-Reported Outcomes**: Include instruments and scoring guides
+* **Biospecimens**: Share metadata and access conditions
+* **Derived Variables**: Explain algorithms and usage contexts
+
+## Summary
+
+Treat external data sharing as a strategic endeavor. With governance, technical preparation, and transparent policies, patient registries can responsibly amplify the utility of their data and accelerate research. Consider the guidance above a roadmap for initiating or refining your data sharing strategy.
+
+---
+
+### References
+1. [https://www.ohdsi.org/data-standardization/the-common-data-model/](https://www.ohdsi.org/data-standardization/the-common-data-model/)
+6. [https://privacyruleandresearch.nih.gov/](https://privacyruleandresearch.nih.gov/)
+7. [https://opentrials.net/](https://opentrials.net/)
+8. [https://www.fda.gov/science-research/fda-science-jobs/fda-and-open-data](https://www.fda.gov/science-research/fda-science-jobs/fda-and-open-data)
+9. [https://fairsharing.org/](https://fairsharing.org/)
+10. [https://github.com/OHDSI/CommonDataModel](https://github.com/OHDSI/CommonDataModel)
+11. [https://www.ncbi.nlm.nih.gov/gap](https://www.ncbi.nlm.nih.gov/gap)
+12. [https://datasciences.nih.gov/standards/federated-models](https://datasciences.nih.gov/standards/federated-models)
+13. [https://www.synapse.org/](https://www.synapse.org/)
+14. [https://www.ejprarediseases.org/ejprd-metadata-model/](https://www.ejprarediseases.org/ejprd-metadata-model/)
+15. [https://www.rarediseasesnetwork.org/rdcrn](https://www.rarediseasesnetwork.org/rdcrn)
+16. [https://www.ga4gh.org/](https://www.ga4gh.org/)
+17. [https://doi.org/10.1038/s41591-018-0279-3](https://doi.org/10.1038/s41591-018-0279-3)
+18. [https://learn.rare-x.org/data-governance](https://learn.rare-x.org/data-governance)
+19. [https://doi.org/10.1371/journal.pbio.3000730](https://doi.org/10.1371/journal.pbio.3000730)
+20. [https://www.nature.com/articles/sdata201618](https://www.nature.com/articles/sdata201618)
+21. [https://doi.org/10.1089/bio.2014.0087](https://doi.org/10.1089/bio.2014.0087)
