@@ -28,7 +28,8 @@ nav:
       - FAQ: faq.md
       - Data Dictionary: data-dictionary.md
       - Derived Fields: derived-fields.md
-  - IRB Documentation: irb.md
+      - IRB Documentation: irb.md
+  - Data Sharing Readiness: data-readiness.md
   - Key Resources:
       - Your Organization(s) Here: key_resources.md
       - NIH Data Sharing Language Explained: nih-data-sharing.md
