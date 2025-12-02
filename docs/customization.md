@@ -17,6 +17,10 @@ You have two options:
   - Click **"Use this template"** to create your own copy.
   - Name your new repository (e.g., `my-registry-docs`) and choose whether it will be public or private.
 
+#### Screenhot
+
+!["Use this template" button on GitHub](assets/img/howto.png)
+
 - **Manual download**:
   - Download this repo as a ZIP and upload the contents to a new GitHub repo.
   - Or use `git clone` and rename the folder.
