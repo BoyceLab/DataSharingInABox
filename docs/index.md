@@ -5,18 +5,21 @@ This open-source website template is designed to help patient registry teams cre
 Built with [MkDocs](https://www.mkdocs.org/) and the [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/) theme, this site supports transparent, ethical, and well-documented data sharing — even if your team has limited technical resources.
 
 ---
-
 ## 🌟 What’s Included
 
 The template comes with pre-built pages and sample language for:
 
 - A **Data Dictionary** outlining available variables
 - **Derived Fields** describing calculated or harmonized data
-- **Information for Researchers**, including DUA & access instructions
-- **IRB Documentation** explaining ethical oversight
+- **Information for Researchers**, including:
+  - Data Use Agreement (DUA) and access instructions
+  - IRB and ethical oversight documentation
+  - End User Survey to assess technical and governance needs
+  - Sharing platforms, data environments, and omics considerations
+- A **Data Sharing Readiness** checklist to help registry teams prepare documentation, inventories, and governance for sharing
+- A visual **Data Access Process** for user guidance that you can modify and convert to a flow chart
 - Sample **FAQs**, **Acknowledgments**, and policy references
-- A curated **Key Resources** page for external guidance and learning
-
+- A curated **Key Resources** page for external guidance and learning, including NIH, FDA, and EMA sources
 ---
 
 ## 🧪 Potential Use Cases for Shared Registry Data
