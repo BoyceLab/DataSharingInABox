@@ -22,7 +22,21 @@ Before data access can be granted, all investigators must:
 
 ## 🔄 Data Access Process
 
-![Data Access Process](assets/img/data-access-process.png)
+# 📊 Data Access Process Overview
+
+| 🧩 **Step** | 👤 **Who**              | ⚙️ **What Happens**                                                   | 🔄 **Outcome / Next Step**                                         |
+|-------------|------------------------|------------------------------------------------------------------------|---------------------------------------------------------------------|
+| 1️⃣          | 🧑‍🔬 Investigator        | Submits data access request                                            | ➡️ Sent to Registry Staff                                           |
+| 2️⃣          | 🗂️ Registry Staff       | Reviews request                                                        | 🔁 Requests info 🔸or🔸 forwards to DAC                              |
+| 3️⃣          | 🧑‍⚖️ DAC                 | Reviews application                                                    | ✅ Approve 🔸 ❌ Reject 🔸 🔁 Request Revisions                        |
+| 4️⃣ (a)      | 🧑‍⚖️ DAC                 | Approves request                                                       | ✅ IRB confirmed & DUA sent by Registry                             |
+| 4️⃣ (b)      | 🧑‍⚖️ DAC / Investigator  | Requests revisions                                                     | 📝 Investigator revises & resubmits to DAC                         |
+| 4️⃣ (c)      | 🧑‍⚖️ DAC                 | Rejects request                                                        | 📭 Investigator notified                                            |
+| 5️⃣          | 🗂️ Registry Staff       | Confirms IRB + Receives DUA signature                                  | 📦 Prepares data                                                    |
+| 6️⃣          | 🗂️ Registry Staff       | Prepares & sends data                                                  | 📤 Data delivered to Investigator                                   |
+| 7️⃣          | 🧑‍🔬 Investigator        | Performs analysis & drafts manuscript                                  | 📨 Sends manuscript to registry                                     |
+| 8️⃣          | 🗂️ Registry Staff       | Reviews manuscript (within 2 weeks)                                    | ✅ Approve or ✏️ Request changes                                     |
+| 9️⃣          | 🧑‍🔬 Investigator        | Revises publication if needed                                          | 📚 Final publication with citation                                 |
 
 ---
 
