@@ -3,7 +3,7 @@
 ---
 !!! tip "Purpose of This Checklist"
     This page helps registry holders or patient advocacy groups assess their **data sharing readiness** when considering participation in external data aggregation initiatives.  
-    It is especially useful for registries with **multiple data sources** (e.g., EHR, surveys, biosamples, imaging, omics) and supports discussions around **data governance, privacy, technical formats, and alignment with organizational values**.
+    It is especially useful for all registries including those with **multiple data types and sources** (e.g., EHR, surveys, biosamples, imaging, omics) and supports discussions around **data governance, privacy, technical formats, and alignment with organizational values**.
 ---
 
 Sharing data from a patient registry with external data repositories or aggregators can greatly amplify the impact of those data, but it requires careful planning and governance. This guidance is intended for all stakeholders involved in a registry – technical leads, program managers, and governance staff alike – and covers **benefits**, **legal/ethical considerations**, **data formatting and harmonization**, **privacy concerns**, **long-term stewardship**, and **emerging models** (like federated networks and the OMOP common data model). These considerations apply across data types (clinical data, genomic data, patient-reported outcomes, etc.).
