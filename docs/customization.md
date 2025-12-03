@@ -1,12 +1,17 @@
 # Data Sharing In A Box
 
 !!! warning "Sample Content Only"
-    This page contains **example language and placeholders** designed to help registry teams build their own data sharing site.  
-    Please **replace all placeholder text** with details specific to your own project, policies, and governance requirements.
-    
+    This site is a **template with example content** to help registry teams publish their data access documentation.  
+    Please **review and customize every page** before sharing this site publicly, especially sections about governance, IRB, and consent.  
+    Remove any placeholder files or references that do not apply to your project.
+
+---
+
 ## ☀️ How to Set Up and Use the Patient Registry Template
 
-This template helps patient registry teams create a public-facing website to share data documentation, governance policies, and data access instructions. It’s built using [MkDocs](https://www.mkdocs.org/) with the [Material theme](https://squidfunk.github.io/mkdocs-material/).
+This template helps patient registry teams or patient advocacy organizations create a transparent, accessible data sharing website. It’s built using [MkDocs](https://www.mkdocs.org/) with the [Material theme](https://squidfunk.github.io/mkdocs-material/).
+
+---
 
 ### 1. Copy This Template Repository
 
@@ -17,8 +22,7 @@ You have two options:
   - Click **"Use this template"** to create your own copy.
   - Name your new repository (e.g., `my-registry-docs`) and choose whether it will be public or private.
 
-#### Screenhot
-
+#### Screenshot  
 !["Use this template" button on GitHub](assets/img/howto.png)
 
 - **Manual download**:
@@ -29,70 +33,75 @@ You have two options:
 
 ### 2. Customize Your Site Metadata
 
-Open `mkdocs.yml` and update:
+Open `mkdocs.yml` and update the following:
 
-- `site_name`: The name of your registry or project.
-- `site_url`: The final URL of your documentation site (optional during setup).
-- `repo_url` and `repo_name`: If you want to link back to your GitHub repository from the site.
-- Replace the logo in `assets/img/` with your registry’s logo and update the `logo:` path in `mkdocs.yml`.
+- `site_name`: Name of your registry or data program.
+- `site_url`: Optional, for your published documentation URL.
+- `repo_url` / `repo_name`: To link back to your GitHub repo.
+- `logo:` and `favicon:` paths: Point to your own organization’s branding under `assets/img/`.
 
 ---
 
-### 3. Fill in the Content
+### 3. Review and Update All Pages
 
-All pages live in the `docs/` folder. Edit the following Markdown files to reflect your project:
+All Markdown content lives in the `docs/` folder. Use this checklist to customize the files:
 
-| File | What to Include |
-|------|------------------|
-| `index.md` | Overview of your registry and what’s on the site |
-| `data_dictionary.md` | Your full data dictionary or variable descriptions |
-| `derived_fields.md` | Description of any calculated/derived fields |
-| `irb.md` | IRB approval info, protocol number, ethics contact |
-| `dua.md` | Summary or full text of your data use terms |
-| `researchers.md` | Step-by-step instructions for requesting and using data |
-| `faq.md` | Any common questions people may have |
-| `acknowledgements.md` | Credit your contributors, funders, institutions |
-| `key_resources.md` | Key references and external tools or policies |
+| File | Customize This Content |
+|------|------------------------|
+| `index.md` | Welcome message and registry overview |
+| `researchers.md` | Data request process — **revise for your workflow** |
+| `survey.md` | End-user intake survey — **update to reflect your IRB/data needs** |
+| `cohort-overview.md` | Describe the population, enrollment, and structure of your data |
+| `data-dictionary.md` | Your variable-level data documentation |
+| `derived-fields.md` | Add any harmonized, derived, or computed variables |
+| `dua.md` | Full or summary of your data use terms |
+| `irb.md` | IRB protocol number, contact, or exemption justification |
+| `faq.md` | Questions data users often ask |
+| `key_resources.md` | Links to internal and external tools/policies |
+| `acknowledgements.md` | People or groups who contributed to the data/registry |
+| `data-platforms.md` | Tools or environments you support (e.g. enclaves, APIs) |
+| `data-readiness.md` | A checklist for evaluating your registry’s documentation before sharing |
+| `external-sharing.md` | Considerations before joining data aggregation efforts (e.g. privacy, harmonization, governance alignment) |
 
-Use plain Markdown or HTML, and feel free to add new pages as needed.
+🗑️ **Remove or hide pages** that aren’t relevant to your registry:
+
+- **To delete**: Remove the file in `docs/` and its entry in `mkdocs.yml`
+- **To hide**: Remove from `mkdocs.yml` only
+- **To rename**: Rename both the file and its nav entry
 
 ---
 
 ### 4. Preview Your Site Locally (Optional)
-
-Have a technical team member run a local preview:
 
 ```bash
 pip install mkdocs mkdocs-material
 mkdocs serve
 ```
 
-This starts a local server (usually at `http://127.0.0.1:8000`) where you can preview the documentation.
+Then open `http://127.0.0.1:8000` in a browser to preview your site before publishing.
 
 ---
 
-### 5. Deploy with GitHub Pages
+### 5. Publish with GitHub Pages
 
-This site is configured to deploy automatically with GitHub Actions. When you push changes to `main`, the workflow builds and updates your site at the GitHub Pages URL (e.g., `https://your-org.github.io/my-registry-docs/`).
+Once GitHub Pages is enabled:
 
-To enable deployment:
-- Go to your repo's **Settings > Pages**.
-- Choose `GitHub Actions` as the source.
-- Ensure that your `mkdocs.yml` and `.github/workflows/deploy.yml` are correctly configured.
+1. Push changes to `main`.
+2. GitHub Actions will build and publish your site automatically.
+3. In your repo settings, go to **Settings > Pages** and confirm the site is deployed.
+
+---
+
+### ✅ Pro Tips
+
+- 🧪 Use the “End User Survey” to collect use-case info from data requestors
+- 🔐 Be clear about what’s **required** before data access (DUA, IRB, etc.)
+- 🗝 Use the “External Sharing” page to **guide internal governance decisions**
 
 ---
 
 ### License
 
-You are welcome to adapt this template for your own patient registry.  
-All content is provided under a **CC BY 4.0 license**. Please credit the original source.  
-[Learn more about the license](https://creativecommons.org/licenses/by/4.0/)
+This template is provided under a **CC BY 4.0 license**. You may adapt it freely, but please credit the original source.  
+[Learn more](https://creativecommons.org/licenses/by/4.0/)
 
-
-### ✅ Need Help?
-If you're new to MkDocs or run into issues:
-- Visit the [MkDocs documentation](https://www.mkdocs.org/).
-- Explore the [Material for MkDocs guide](https://squidfunk.github.io/mkdocs-material/).
-- Check out [GitHub Actions documentation](https://docs.github.com/en/actions).
-
-Happy documenting! 📝
