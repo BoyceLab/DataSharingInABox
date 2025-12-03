@@ -1,9 +1,5 @@
 # ✅ Data Sharing Readiness Assessment
 
-!!! warning "Disclaimer"
-    This is **sample content only**. It is intended as a general framework for registry holders or patient advocacy groups to evaluate data sharing readiness.  
-    Please consult your legal, IRB, or data governance advisors before using this tool in a live environment.
-
 !!! tip "Purpose of This Checklist"
     This page helps registry holders or patient advocacy groups assess their **data sharing readiness** by reviewing data assets, documentation, infrastructure, and governance practices.  
     It is especially useful if your registry includes **multiple data sources** (e.g., EHR, surveys, biosamples, imaging, omics).
