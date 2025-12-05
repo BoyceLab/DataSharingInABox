@@ -1,7 +1,6 @@
 # Guidance for Sharing App or Registry Data with Clinical Trial Sponsors
 
 ---
-
 !!! important "Disclaimer"
     This document provides general guidance and is not legal advice.  
     Legal, regulatory, and ethics experts should be consulted before implementing data-sharing practices.
@@ -45,7 +44,7 @@ This section summarizes official FDA and EMA guidance, and concrete regulatory p
 
 - [FDA guidance](https://www.fda.gov/media/171667/download)
 
-**Key points and short quotes:**
+**Key points and quotes:**
 
 - Sponsors are expected to have a **prospectively defined protocol and SAP** for any RWD study that will support a marketing application.
 
@@ -61,7 +60,7 @@ This section summarizes official FDA and EMA guidance, and concrete regulatory p
 
 - [FDA guidance](https://www.fda.gov/media/154449/download)
 
-**Key points and short quotes:**
+**Key points and quotes:**
 
 - Registries are defined as systems that enroll a **predefined population** and collect **prespecified** health-related data.
 
@@ -82,7 +81,7 @@ Together, these guidance documents establish that regulatory-grade RWD/RWE must 
 
 - [EMA Guideline](https://www.ema.europa.eu/en/documents/regulatory-procedural-guideline/guideline-computerised-systems-and-electronic-data-clinical-trials_en.pdf)
 
-**Key points and short quotes:**
+**Key points and quotes:**
 
 - The guideline sets expectations for **validated, controlled computerised systems** used for trial data, including ePRO, wearables, EHR, and other electronic sources.
 
@@ -102,6 +101,7 @@ Unplanned importing of external app data into a trial context sits uncomfortably
 
 The reflection work emphasizes that external controls and RWD must be used under **prospectively planned, well-governed designs** to avoid bias. External data that are not pre-specified or quality-controlled are considered high-risk for decision-making.
 
+<!--
 ### 3.5 Regulatory Precedent: External Controls Not Accepted
 
 Publicly available FDA reviews and secondary analyses show multiple cases where RWD-based external controls were **not accepted** as adequate for regulatory decision-making, mainly due to methodological flaws and lack of pre-specified design.
@@ -144,11 +144,11 @@ Key documents:
 
 Key documents:
 
-- [FDA RWD review]{https://www.accessdata.fda.gov/drugsatfda_docs/nda/2019/212018Orig1s000OtherR.pdf)
+- [FDA RWD review](https://www.accessdata.fda.gov/drugsatfda_docs/nda/2019/212018Orig1s000OtherR.pdf)
 
 - Case summary: same Aetion article.
-
-### 3.6 Implication for Patient-Tracker Data
+-->
+### 3.6 Implication for Patient-Advocacy Group 
 
 These guidance documents and precedents collectively support the view that:
 
@@ -341,7 +341,7 @@ Prohibited:
 - [ ] Red: not permissible
 
 ---
-
+<!--
 ## 10. Safe Sharing Model (Table Format)
 
 ### Data Flow Overview - to be turned into a diagram
@@ -367,8 +367,4 @@ Prohibited:
 | Protocol Authors | No | Firewalled |
 
 ---
-
-## 11. Disclaimer
-
-This document provides general guidance and is not legal advice. Legal, regulatory, and ethics experts should be consulted before implementing data-sharing practices.
-
+-->
