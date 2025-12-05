@@ -43,11 +43,7 @@ This section summarizes official FDA and EMA guidance, and concrete regulatory p
 **Guidance:**  
 “Considerations for the Use of Real-World Data and Real-World Evidence to Support Regulatory Decision-Making for Drug and Biological Products” (Guidance for Industry, Aug 2023).
 
-- FDA guidance page:  
-  https://www.fda.gov/regulatory-information/search-fda-guidance-documents/considerations-use-real-world-data-and-real-world-evidence-support-regulatory-decision-making-drug
-
-- PDF:  
-  https://www.fda.gov/media/171667/download
+- [FDA guidance](https://www.fda.gov/media/171667/download)
 
 **Key points and short quotes:**
 
@@ -63,8 +59,7 @@ This section summarizes official FDA and EMA guidance, and concrete regulatory p
 **Guidance:**  
 “Real-World Data: Assessing Registries to Support Regulatory Decision-Making for Drug and Biological Products” (Guidance for Industry, Dec 2023).
 
-- PDF:  
-  https://www.fda.gov/media/154449/download
+- [FDA guidance](https://www.fda.gov/media/154449/download)
 
 **Key points and short quotes:**
 
@@ -85,8 +80,7 @@ Together, these guidance documents establish that regulatory-grade RWD/RWE must 
 **Guideline:**  
 “Guideline on Computerised Systems and Electronic Data in Clinical Trials” (EMA/INS/GCP/112288/2023).
 
-- PDF:  
-  https://www.ema.europa.eu/en/documents/regulatory-procedural-guideline/guideline-computerised-systems-and-electronic-data-clinical-trials_en.pdf
+- [EMA Guideline](https://www.ema.europa.eu/en/documents/regulatory-procedural-guideline/guideline-computerised-systems-and-electronic-data-clinical-trials_en.pdf)
 
 **Key points and short quotes:**
 
@@ -104,8 +98,7 @@ Unplanned importing of external app data into a trial context sits uncomfortably
 **Program:**  
 “Development of a reflection paper on the use of external controls in evidence generation and regulatory decision-making.”
 
-- EMA page:  
-  https://www.ema.europa.eu/en/development-reflection-paper-use-external-controls-evidence-generation-regulatory-decision-making-scientific-guideline
+- [EMA page](https://www.ema.europa.eu/en/development-reflection-paper-use-external-controls-evidence-generation-regulatory-decision-making-scientific-guideline)
 
 The reflection work emphasizes that external controls and RWD must be used under **prospectively planned, well-governed designs** to avoid bias. External data that are not pre-specified or quality-controlled are considered high-risk for decision-making.
 
@@ -123,11 +116,9 @@ Publicly available FDA reviews and secondary analyses show multiple cases where 
 
 Key documents:
 
-- FDA RWD review (PDF):  
-  https://www.accessdata.fda.gov/drugsatfda_docs/nda/2019/212725Orig1s000%2C%20212726Orig1s000OtherR.pdf
+- [FDA RWD review](https://www.accessdata.fda.gov/drugsatfda_docs/nda/2019/212725Orig1s000%2C%20212726Orig1s000OtherR.pdf)
 
-- Case summary:  
-  https://evidence-hub.aetion.com/learnings-from-three-fda-decisions-on-eca-submissions-in-oncology
+- [Case summary](https://evidence-hub.aetion.com/learnings-from-three-fda-decisions-on-eca-submissions-in-oncology)
 
 #### Xpovio (selinexor) – Relapsed/Refractory Multiple Myeloma
 
@@ -139,8 +130,7 @@ Key documents:
 
 Key documents:
 
-- FDA multi-discipline review (PDF):  
-  https://www.accessdata.fda.gov/drugsatfda_docs/nda/2019/212306Orig1s000MultidisciplineR.pdf
+- [FDA review](https://www.accessdata.fda.gov/drugsatfda_docs/nda/2019/212306Orig1s000MultidisciplineR.pdf)
 
 - Case summary: same Aetion article as above.
 
@@ -154,8 +144,7 @@ Key documents:
 
 Key documents:
 
-- FDA RWD review (PDF):  
-  https://www.accessdata.fda.gov/drugsatfda_docs/nda/2019/212018Orig1s000OtherR.pdf
+- [FDA RWD review]{https://www.accessdata.fda.gov/drugsatfda_docs/nda/2019/212018Orig1s000OtherR.pdf)
 
 - Case summary: same Aetion article.
 
@@ -355,7 +344,7 @@ Prohibited:
 
 ## 10. Safe Sharing Model (Table Format)
 
-### Data Flow Overview
+### Data Flow Overview - to be turned into a diagram
 
 | Step | Description | Flow |
 |------|-------------|------|
