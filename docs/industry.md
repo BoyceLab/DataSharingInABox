@@ -33,7 +33,7 @@ It governs sharing of:
 - Scientific, commercial, and regulatory uses of patient-generated data
 
 ---
-## 3. Regulatory Background: Key Guidance and Precedent
+## 3. Regulatory Background: Key Guidance
 
 This section summarizes official FDA and EMA guidance, and concrete regulatory precedents, that are relevant to sharing patient-generated data (PGD) with clinical trial sponsors.
 
