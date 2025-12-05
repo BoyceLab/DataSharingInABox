@@ -92,6 +92,7 @@ Together, these guidance documents establish that regulatory-grade RWD/RWE must 
 
 Unplanned importing of external app data into a trial context sits uncomfortably with these expectations.
 
+<!--
 ### 3.4 EMA – Reflection on External Controls and RWD
 
 **Program:**  
@@ -100,8 +101,6 @@ Unplanned importing of external app data into a trial context sits uncomfortably
 - [EMA page](https://www.ema.europa.eu/en/development-reflection-paper-use-external-controls-evidence-generation-regulatory-decision-making-scientific-guideline)
 
 The reflection work emphasizes that external controls and RWD must be used under **prospectively planned, well-governed designs** to avoid bias. External data that are not pre-specified or quality-controlled are considered high-risk for decision-making.
-
-<!--
 ### 3.5 Regulatory Precedent: External Controls Not Accepted
 
 Publicly available FDA reviews and secondary analyses show multiple cases where RWD-based external controls were **not accepted** as adequate for regulatory decision-making, mainly due to methodological flaws and lack of pre-specified design.
