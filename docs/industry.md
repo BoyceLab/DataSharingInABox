@@ -23,8 +23,8 @@ This policy applies to:
 
 - The patient tracker app or registry operated by the advocacy group
 - Any biopharmaceutical company (“Sponsor”), including those:
-  - Conducting ongoing clinical trials
-  - Planning future trials
+    - Conducting ongoing clinical trials
+    - Planning future trials
 
 It governs sharing of:
 
@@ -332,12 +332,6 @@ Prohibited:
 - [ ] Prohibited teams identified
 - [ ] Access controls set
 - [ ] Logs enabled
-
-### Risk Rating
-
-- [ ] Green: acceptable
-- [ ] Amber: acceptable with safeguards
-- [ ] Red: not permissible
 
 ---
 <!--
