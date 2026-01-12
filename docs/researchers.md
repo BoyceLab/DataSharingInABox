@@ -62,7 +62,10 @@ All data requests are evaluated by the **Data Access Committee (DAC)** to ensure
 - Scientific merit and feasibility  
 - Compliance with ethical standards  
 - Appropriate use of sensitive or identifiable fields  
-- Data use aligns with the registry's goals and participant consent  
+- Data use aligns with the registry's goals and participant consent
+
+We have created a sample Data Access Committee (DAC) Standard Operating Procedure (SOP) [here](./DACSOP.md).
+
 
 ---
 
