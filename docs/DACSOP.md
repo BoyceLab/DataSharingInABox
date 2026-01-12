@@ -64,7 +64,7 @@ Membership may be adapted depending on the scope and nature of individual reques
 
 The DAC is responsible for:
 
-- Reviewing and evaluating all data access requests submitted to the Registry
+- Reviewing and evaluating all data access requests submitted to the Registry (see sample DAC evaluation rubric [here] (./DACrubric.md).
 - Ensuring that requests align with the Registry’s objectives and Data Access Policy
 - Determining appropriate access levels (e.g. aggregate, pseudonymized, or limited datasets)
 - Verifying that requestors are appropriately qualified and authorized
