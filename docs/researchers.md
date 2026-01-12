@@ -64,7 +64,7 @@ All data requests are evaluated by the **Data Access Committee (DAC)** to ensure
 - Appropriate use of sensitive or identifiable fields  
 - Data use aligns with the registry's goals and participant consent
 
-We have created a sample Data Access Committee (DAC) Standard Operating Procedure (SOP) [here](./DACSOP.md).
+We have created a sample Data Access Committee (DAC) Standard Operating Procedure (SOP) [here](./DACSOP.md) and [DAC evaluation rubric, [here] (./DACrubric.md).
 
 
 ---
