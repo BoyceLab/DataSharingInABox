@@ -29,7 +29,7 @@ You do **not** need to complete every section to begin sharing data. Use what fi
 ### 🧾 1. Registry Content Inventory
 
 - [ ] **Master variable list** compiled across all data sources  
-- [ ] **Data Dictionary** exists for each dataset (surveys, labs, genomics, etc.)  
+- [ ] **Data Dictionary** exists for each data set (surveys, labs, genomics, etc.)  
 - [ ] **Linkage documentation** describes how sources are joined (e.g., participant ID, visit date)  
 - [ ] **Data source tags** included for merged variables (provenance)  
 - [ ] **Derived variables** clearly labeled with source(s) documented  
@@ -42,9 +42,9 @@ You do **not** need to complete every section to begin sharing data. Use what fi
 ### 📄 2. Governance & Documentation
 
 - [ ] **Data Use Agreement (DUA)** specifies which data sources are shared  
-- [ ] **IRB protocol** covers all datasets and secondary use  
+- [ ] **IRB protocol** covers all data sets and secondary use  
 - [ ] **Consent language** reviewed for each source (EHR, biospecimen, survey)  
-- [ ] **Oversight committee** includes dataset-specific expertise  
+- [ ] **Oversight committee** includes data set-specific expertise  
 - [ ] **Review process** supports partial or multi-source requests  
 - [ ] **End-user intake form** asks which data types are requested  
 - [ ] **Publications policy** supports tiered or layered access  
@@ -74,7 +74,7 @@ You do **not** need to complete every section to begin sharing data. Use what fi
 
 ### 🔐 5. Privacy and Ethics
 
-- [ ] **Identifiability risk** assessed across combined datasets  
+- [ ] **Identifiability risk** assessed across combined data sets  
 - [ ] **Omics, imaging, geospatial data** reviewed for re-identification risk  
 - [ ] **HIPAA / GDPR compliance** validated per data stream  
 - [ ] **Tiered access model** defined (public, controlled, restricted)  
@@ -117,7 +117,7 @@ You do **not** need to complete every section to begin sharing data. Use what fi
 - [ ] Completeness monitored by source  
 - [ ] Value range and format checks defined  
 - [ ] Provenance captured for merged variables  
-- [ ] Dataset versions tracked with change logs  
+- [ ] data set versions tracked with change logs  
 
 ---
 
@@ -175,7 +175,7 @@ You do **not** need to complete every section to begin sharing data. Use what fi
 - Use **data source tagging** and consistent naming conventions  
 - Track **data provenance**: what came from where, and when  
 - Clarify which data sources are **required vs optional**  
-- Share **core datasets by default**, restrict sensitive or high-dimensional data  
+- Share **core data sets by default**, restrict sensitive or high-dimensional data  
 - Provide diagrams of **data architecture or flow**  
 
 ---
