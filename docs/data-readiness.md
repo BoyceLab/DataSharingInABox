@@ -3,8 +3,6 @@ title: Data Sharing Readiness Assessment
 toc: true
 ---
 
-## ✅ Data Sharing Readiness Assessment
-
 !!! tip "Purpose of This Checklist"
     This page helps registry holders, patient advocacy groups, and data stewards assess their **data sharing readiness** including documentation, governance, technical infrastructure, and **data standardization**.
 
