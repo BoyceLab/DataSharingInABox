@@ -16,11 +16,11 @@ toc: true
 
 This assessment is organized into **three layers**:
 
-1. **Foundational Readiness** – Can your data be responsibly shared?
-2. **Standardization Readiness** – Can others understand and reuse it?
-3. **OMOP Readiness (Optional)** – Can it be transformed into a common data model?
+1. **Foundational Readiness:** Can your data be responsibly shared?
+2. **Standardization Readiness:** Can others understand and reuse it?
+3. **OMOP Readiness (Optional):** Can it be transformed into a common data model?
 
-You do **not** need to complete every section to begin sharing data — use what fits your goals.
+You do **not** need to complete every section to begin sharing data. Use what fits your use case/goals.
 
 ---
 
