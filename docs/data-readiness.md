@@ -3,7 +3,7 @@ title: Data Sharing Readiness Assessment
 toc: true
 ---
 
-# ✅ Data Sharing Readiness Assessment
+## ✅ Data Sharing Readiness Assessment
 
 !!! tip "Purpose of This Checklist"
     This page helps registry holders, patient advocacy groups, and data stewards assess their **data sharing readiness**  including documentation, governance, technical infrastructure, and **data standardization**.
@@ -24,9 +24,9 @@ You do **not** need to complete every section to begin sharing data — use what
 
 ---
 
-# 🧱 Layer 1: Foundational Data Sharing Readiness
+## 🧱 Layer 1: Foundational Data Sharing Readiness
 
-## 🧾 1. Registry Content Inventory
+### 🧾 1. Registry Content Inventory
 
 - [ ] **Master variable list** compiled across all data sources  
 - [ ] **Data Dictionary** exists for each dataset (surveys, labs, genomics, etc.)  
@@ -39,7 +39,7 @@ You do **not** need to complete every section to begin sharing data — use what
 
 ---
 
-## 📄 2. Governance & Documentation
+### 📄 2. Governance & Documentation
 
 - [ ] **Data Use Agreement (DUA)** specifies which data sources are shared  
 - [ ] **IRB protocol** covers all datasets and secondary use  
@@ -51,7 +51,7 @@ You do **not** need to complete every section to begin sharing data — use what
 
 ---
 
-## 💻 3. Technical Infrastructure
+### 💻 3. Technical Infrastructure
 
 - [ ] **Each data source** available in a common export format (CSV, RDS, JSON, etc.)  
 - [ ] **Data integration pipeline** documented (manual or automated)  
@@ -63,7 +63,7 @@ You do **not** need to complete every section to begin sharing data — use what
 
 ---
 
-## 👥 4. Registry Team Roles & Capacity
+### 👥 4. Registry Team Roles & Capacity
 
 - [ ] Staff assigned per source (e.g., genomics lead, EHR analyst)  
 - [ ] Request fulfillment timelines defined  
@@ -72,7 +72,7 @@ You do **not** need to complete every section to begin sharing data — use what
 
 ---
 
-## 🔐 5. Privacy and Ethics
+### 🔐 5. Privacy and Ethics
 
 - [ ] **Identifiability risk** assessed across combined datasets  
 - [ ] **Omics, imaging, geospatial data** reviewed for re-identification risk  
@@ -83,7 +83,7 @@ You do **not** need to complete every section to begin sharing data — use what
 
 ---
 
-# 🧩 Layer 2: Data Standardization Readiness (Recommended)
+## 🧩 Layer 2: Data Standardization Readiness (Recommended)
 
 !!! info "Why is this important?"
     Even well-governed data can be hard to reuse if variables, codes, and meanings are inconsistent.
@@ -91,7 +91,7 @@ You do **not** need to complete every section to begin sharing data — use what
 
 ---
 
-## 🧠 6. Variable Definitions & Semantics
+### 🧠 6. Variable Definitions & Semantics
 
 - [ ] Variables have **clear, unambiguous definitions**  
 - [ ] Similar variables across sources are reconciled  
@@ -101,7 +101,7 @@ You do **not** need to complete every section to begin sharing data — use what
 
 ---
 
-## 🧬 7. Standard Vocabulary Use
+### 🧬 7. Standard Vocabulary Use
 
 - [ ] Diagnoses coded or mappable (SNOMED, ORPHA, MONDO)  
 - [ ] Phenotypes structured or mappable (HPO)  
@@ -112,7 +112,7 @@ You do **not** need to complete every section to begin sharing data — use what
 
 ---
 
-## 📊 8. Data Quality & Provenance
+### 📊 8. Data Quality & Provenance
 
 - [ ] Completeness monitored by source  
 - [ ] Value range and format checks defined  
@@ -121,7 +121,7 @@ You do **not** need to complete every section to begin sharing data — use what
 
 ---
 
-# 🧬 Layer 3: OMOP Readiness 
+## 🧬 Layer 3: OMOP Readiness 
 
 !!! note "Optional but Powerful"
     Complete this section if you plan to:
@@ -132,7 +132,7 @@ You do **not** need to complete every section to begin sharing data — use what
 
 ---
 
-## 🧱 9. OMOP Structural Fit
+### 🧱 9. OMOP Structural Fit
 
 - [ ] Person-level records with stable IDs  
 - [ ] Visit or event-based structure  
@@ -152,7 +152,7 @@ You do **not** need to complete every section to begin sharing data — use what
 
 ---
 
-## 🔄 10. OMOP ETL Practicality
+### 🔄 10. OMOP ETL Practicality
 
 - [ ] Source tables are stable  
 - [ ] Variable meanings are consistent  
@@ -162,7 +162,7 @@ You do **not** need to complete every section to begin sharing data — use what
 
 ---
 
-## 🚦 OMOP Readiness Rating
+### 🚦 OMOP Readiness Rating
 
 - **Green** – OMOP ETL feasible now  
 - **Yellow** – Standardization needed first  
@@ -170,7 +170,7 @@ You do **not** need to complete every section to begin sharing data — use what
 
 ---
 
-# 🧩 Tips for Multi-Source Registries
+## 🧩 Tips for Multi-Source Registries
 
 - Use **data source tagging** and consistent naming conventions  
 - Track **data provenance**: what came from where, and when  
