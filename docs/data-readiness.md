@@ -1,20 +1,41 @@
+---
+title: Data Sharing Readiness Assessment
+layout: default
+---
+
 # ✅ Data Sharing Readiness Assessment
 
 !!! tip "Purpose of This Checklist"
-    This page helps registry holders or patient advocacy groups assess their **data sharing readiness** by reviewing data assets, documentation, infrastructure, and governance practices.  
-    It is especially useful if your registry includes **multiple data sources** (e.g., EHR, surveys, biosamples, imaging, omics).
+    This page helps registry holders, patient advocacy groups, and data stewards assess their **data sharing readiness** — including documentation, governance, technical infrastructure, and **data standardization**.
+
+    It is especially useful for registries that include **multiple data sources** (e.g., EHR, surveys, biosamples, imaging, genomics) and want to prepare for **external data sharing, harmonization, or OMOP mapping**.
+
 ---
+
+## 🧭 How to Use This Page
+
+This assessment is organized into **three layers**:
+
+1. **Foundational Readiness** – Can your data be responsibly shared?
+2. **Standardization Readiness** – Can others understand and reuse it?
+3. **OMOP Readiness (Optional)** – Can it be transformed into a common data model?
+
+You do **not** need to complete every section to begin sharing data — use what fits your goals.
+
+---
+
+# 🧱 Layer 1: Foundational Data Sharing Readiness
 
 ## 🧾 1. Registry Content Inventory
 
 - [ ] **Master variable list** compiled across all data sources  
 - [ ] **Data Dictionary** exists for each dataset (surveys, labs, genomics, etc.)  
 - [ ] **Linkage documentation** describes how sources are joined (e.g., participant ID, visit date)  
-- [ ] **Data source tags** are included for merged variables (to show provenance)  
-- [ ] **Derived variables** are well-labeled and their source(s) are documented  
-- [ ] **Date standardization** and time alignment across sources is addressed  
+- [ ] **Data source tags** included for merged variables (provenance)  
+- [ ] **Derived variables** clearly labeled with source(s) documented  
+- [ ] **Date standardization** and time alignment addressed  
 - [ ] **Missingness summary** reported per source  
-- [ ] **Cohort definition** is consistent across sources (e.g., same inclusion/exclusion)
+- [ ] **Cohort definition** consistent across sources  
 
 ---
 
@@ -22,61 +43,149 @@
 
 - [ ] **Data Use Agreement (DUA)** specifies which data sources are shared  
 - [ ] **IRB protocol** covers all datasets and secondary use  
-- [ ] **Consent language** reviewed for each source (e.g., biospecimen, EHR, survey)  
-- [ ] **Oversight committee** includes representation familiar with each dataset type  
-- [ ] **Review process** handles requests for partial or multi-source data  
-- [ ] **End-user survey or intake form** asks which data types are needed  
-- [ ] **Publications policy** considers layered or tiered access (e.g., core data vs. omics)
+- [ ] **Consent language** reviewed for each source (EHR, biospecimen, survey)  
+- [ ] **Oversight committee** includes dataset-specific expertise  
+- [ ] **Review process** supports partial or multi-source requests  
+- [ ] **End-user intake form** asks which data types are requested  
+- [ ] **Publications policy** supports tiered or layered access  
 
 ---
 
 ## 💻 3. Technical Infrastructure
 
-- [ ] **Each data source** is available in a common export format (CSV, RDS, JSON, etc.)  
-- [ ] **Data integration pipeline** (manual or automated) is described  
-- [ ] **De-identified linking key** exists to join data while protecting identity  
-- [ ] **Secure transfer options** accommodate large files (e.g., genomics, imaging)  
-- [ ] **Remote analysis environment** is available for high-sensitivity data  
-- [ ] **Access logs or audit trails** are maintained per data source  
-- [ ] **Documentation portal** or metadata catalog exists per dataset
+- [ ] **Each data source** available in a common export format (CSV, RDS, JSON, etc.)  
+- [ ] **Data integration pipeline** documented (manual or automated)  
+- [ ] **De-identified linking key** exists  
+- [ ] **Secure transfer options** for large or sensitive files  
+- [ ] **Remote analysis environment** available if needed  
+- [ ] **Access logs / audit trails** maintained  
+- [ ] **Documentation portal or metadata catalog** exists  
 
 ---
 
 ## 👥 4. Registry Team Roles & Capacity
 
-- [ ] Staff assigned to curate and support each source (e.g., genomics lead, EHR analyst)  
-- [ ] Request fulfillment timelines defined based on source complexity  
-- [ ] Capacity exists to answer data provenance and transformation questions  
-- [ ] Governance team understands dependencies between sources
+- [ ] Staff assigned per source (e.g., genomics lead, EHR analyst)  
+- [ ] Request fulfillment timelines defined  
+- [ ] Capacity to answer provenance and transformation questions  
+- [ ] Governance team understands cross-source dependencies  
 
 ---
 
 ## 🔐 5. Privacy and Ethics
 
 - [ ] **Identifiability risk** assessed across combined datasets  
-- [ ] **Omics, imaging, and geospatial data** are reviewed for re-ID risk  
-- [ ] **HIPAA / GDPR-compliance** validated per data stream  
-- [ ] **Tiered access models** considered (e.g., public, controlled, restricted)  
-- [ ] **Secure analysis environments** offered for sensitive linked datasets  
-- [ ] **Data destruction policy** covers all file types and storage methods
+- [ ] **Omics, imaging, geospatial data** reviewed for re-identification risk  
+- [ ] **HIPAA / GDPR compliance** validated per data stream  
+- [ ] **Tiered access model** defined (public, controlled, restricted)  
+- [ ] **Secure analysis options** offered for sensitive data  
+- [ ] **Data destruction policy** covers all formats and systems  
 
 ---
 
-## 🧩 Tips for Multi-Source Registries
+# 🧩 Layer 2: Data Standardization Readiness (Recommended)
 
-- Use **data source tagging** and clear naming conventions in merged files.  
-- Track **data provenance**: what came from where, and when.  
-- Clearly indicate whether all sources are required for analysis, or optional.  
-- Consider **sharing core datasets by default**, and requiring justification for sensitive or high-dimensional data (e.g., omics).  
-- Provide visual diagrams of the **data architecture or flow**, especially if complexity is high.
+!!! info "Why is this important?"
+    Even well-governed data can be hard to reuse if variables, codes, and meanings are inconsistent.
+    This section helps assess **semantic readiness** for harmonization across registries or studies.
+
+---
+
+## 🧠 6. Variable Definitions & Semantics
+
+- [ ] Variables have **clear, unambiguous definitions**  
+- [ ] Similar variables across sources are reconciled  
+- [ ] Units stored separately and consistently  
+- [ ] Dates distinguish **onset vs diagnosis vs observation**  
+- [ ] Null values distinguish *missing*, *unknown*, and *not applicable*  
+
+---
+
+## 🧬 7. Standard Vocabulary Use
+
+- [ ] Diagnoses coded or mappable (SNOMED, ORPHA, MONDO)  
+- [ ] Phenotypes structured or mappable (HPO)  
+- [ ] Labs coded or mappable (LOINC + UCUM units)  
+- [ ] Medications normalized (RxNorm / ATC)  
+- [ ] Procedures use a recognized coding system  
+- [ ] Source values retained alongside standard codes  
+
+---
+
+## 📊 8. Data Quality & Provenance
+
+- [ ] Completeness monitored by source  
+- [ ] Value range and format checks defined  
+- [ ] Provenance captured for merged variables  
+- [ ] Dataset versions tracked with change logs  
+
+---
+
+# 🧬 Layer 3: OMOP Readiness 
+
+!!! note "Optional but Powerful"
+    Complete this section if you plan to:
+    - Participate in federated networks  
+    - Enable multi-registry analytics  
+    - Support reproducible, model-driven research  
+
+---
+
+## 🧱 9. OMOP Structural Fit
+
+- [ ] Person-level records with stable IDs  
+- [ ] Visit or event-based structure  
+- [ ] Longitudinal data capture  
+- [ ] Core clinical domains represented  
+
+| OMOP Domain | Present |
+|------------|---------|
+| PERSON | ⬜ |
+| VISIT_OCCURRENCE / DETAIL | ⬜ |
+| CONDITION_OCCURRENCE | ⬜ |
+| MEASUREMENT | ⬜ |
+| DRUG_EXPOSURE | ⬜ |
+| PROCEDURE_OCCURRENCE | ⬜ |
+| OBSERVATION | ⬜ |
+| DEATH | ⬜ |
+
+---
+
+## 🔄 10. OMOP ETL Practicality
+
+- [ ] Source tables are stable  
+- [ ] Variable meanings are consistent  
+- [ ] Units explicitly stored  
+- [ ] Dates are parseable and complete  
+- [ ] Corrections and updates can be tracked  
+
+---
+
+## 🚦 OMOP Readiness Rating
+
+- **Green** – OMOP ETL feasible now  
+- **Yellow** – Standardization needed first  
+- **Red** – Not currently suitable  
+
+---
+
+# 🧩 Tips for Multi-Source Registries
+
+- Use **data source tagging** and consistent naming conventions  
+- Track **data provenance**: what came from where, and when  
+- Clarify which data sources are **required vs optional**  
+- Share **core datasets by default**, restrict sensitive or high-dimensional data  
+- Provide diagrams of **data architecture or flow**  
 
 ---
 
 ## 📌 Summary
 
-Use this checklist to identify gaps before inviting data access requests — especially when managing diverse or sensitive datasets.  
+Use this assessment to identify gaps **before** inviting data access requests or pursuing harmonization.
 
-Consider publishing a **data inventory table** summarizing each source, its variables, access level, and documentation status.
+Many registries begin with Layer 1, progress through Layer 2, and only complete Layer 3 when needed.
+
+Consider publishing a **data inventory table** summarizing each source, access level, and documentation status.
 
 ---
 
