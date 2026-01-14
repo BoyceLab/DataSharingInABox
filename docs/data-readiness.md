@@ -6,7 +6,7 @@ toc: true
 ## ✅ Data Sharing Readiness Assessment
 
 !!! tip "Purpose of This Checklist"
-    This page helps registry holders, patient advocacy groups, and data stewards assess their **data sharing readiness**  including documentation, governance, technical infrastructure, and **data standardization**.
+    This page helps registry holders, patient advocacy groups, and data stewards assess their **data sharing readiness** including documentation, governance, technical infrastructure, and **data standardization**.
 
     It is especially useful for registries that include **multiple data sources** (e.g., EHR, surveys, biosamples, imaging, genomics) and want to prepare for **external data sharing, harmonization, or OMOP mapping**.
 
@@ -121,7 +121,7 @@ You do **not** need to complete every section to begin sharing data. Use what fi
 
 ---
 
-## 🧬 Layer 3: OMOP Readiness 
+## 🧬 Layer 3: OMOP Readiness
 
 !!! note "Optional but Powerful"
     Complete this section if you plan to:
@@ -162,11 +162,127 @@ You do **not** need to complete every section to begin sharing data. Use what fi
 
 ---
 
-### 🚦 OMOP Readiness Rating
+### 📐 OMOP Readiness Scale & Rubric
 
-- **Green** – OMOP ETL feasible now  
-- **Yellow** – Standardization needed first  
-- **Red** – Not currently suitable  
+!!! tip "What This Scale Is For"
+    This rubric helps registries understand **how close they are to OMOP Common Data Model (CDM) adoption**, and what steps are needed to move forward.
+
+    OMOP readiness is **not all-or-nothing.** Many registries progress through these levels over time.
+
+---
+
+#### 🚦 OMOP Readiness Levels (0–4)
+
+##### **Level 0: Not OMOP-Ready**
+**Status:** Foundational gaps prevent OMOP mapping.
+
+**Typical characteristics**
+- No stable person identifiers  
+- Flat or cross-sectional data only  
+- Heavy reliance on free text for key domains  
+- No consistent visit or event dates  
+- Variable definitions unclear or missing  
+
+**What to focus on next**
+- Create a master data dictionary  
+- Define person- and event-level structure  
+- Standardize dates, identifiers, and provenance  
+
+---
+
+##### **Level 1: Structurally Aware**
+**Status:** Data structure exists, but semantics are weak.
+
+**Typical characteristics**
+- Person-level records with stable IDs  
+- Longitudinal data present  
+- Minimal or inconsistent use of standard vocabularies  
+- Local codes or free text dominate  
+- Mapping would rely heavily on OMOP `OBSERVATION`  
+
+**What to focus on next**
+- Clarify variable definitions  
+- Identify candidate standard vocabularies  
+- Normalize units and dates  
+
+---
+
+##### **Level 2: Terminology Mappable**
+**Status:** Core domains can be mapped with moderate effort.
+
+**Typical characteristics**
+- Diagnoses, labs, and medications partially coded or mappable  
+- Units stored separately  
+- Source values preserved  
+- Visit structure mostly consistent  
+- Limited governance around vocabularies  
+
+**What to focus on next**
+- Formalize vocabulary mappings  
+- Reduce free text in high-value fields  
+- Document mapping decisions  
+
+---
+
+##### **Level 3: OMOP-Compatible**
+**Status:** OMOP ETL feasible with standard effort.
+
+**Typical characteristics**
+- Core clinical domains map cleanly to OMOP tables  
+- Standard vocabularies used consistently  
+- Longitudinal visits or events well-defined  
+- Provenance and versioning tracked  
+- Initial OMOP ETL completed or piloted  
+
+**What to focus on next**
+- Expand to additional domains (e.g., genomics, PROs)  
+- Improve automation and quality assurance  
+- Prepare for federated analyses  
+
+---
+
+##### **Level 4: OMOP-Operational**
+**Status:** OMOP is production-ready and reusable.
+
+**Typical characteristics**
+- Routine OMOP refreshes  
+- Automated and versioned ETL pipeline  
+- Data quality checks aligned with OMOP conventions  
+- Participation in federated or networked studies  
+- Clear governance for mappings and updates  
+
+**What to focus on next**
+- Optimization and performance  
+- Advanced phenotyping and cohort reuse  
+- Cross-network harmonization  
+
+---
+
+#### 📊 How to Assign a Level
+
+Use the OMOP checklists above and apply the following rule:
+
+- **Level 0:** Fails multiple Structural Fit items  
+- **Level 1:** Structural Fit ✔, Terminology Mapping mostly ✖  
+- **Level 2:** Structural Fit ✔, Terminology Mapping mostly ✔  
+- **Level 3:** Structural + Terminology + ETL Practicality ✔  
+- **Level 4:** Level 3 plus operationalized ETL and reuse  
+
+---
+
+#### 🧮 Optional Quantitative Scoring
+
+Assign points to each OMOP readiness checklist item:
+
+- ✔ = 1 point  
+- ✖ = 0 points  
+
+**Score ranges**
+- **0–4:** Level 0  
+- **5–8:** Level 1  
+- **9–12:** Level 2  
+- **13–16:** Level 3  
+- **17+**: Level 4  
 
 ---
 
@@ -191,3 +307,4 @@ Consider publishing a **data inventory table** summarizing each source, access l
 ---
 
 *Need help? Visit the [How to Customize This Template](customization.md) page or contact your data governance advisor.*
+
