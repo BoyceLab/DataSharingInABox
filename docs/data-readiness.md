@@ -6,7 +6,7 @@ toc: true
 # ✅ Data Sharing Readiness Assessment
 
 !!! tip "Purpose of This Checklist"
-    This page helps registry holders, patient advocacy groups, and data stewards assess their **data sharing readiness** — including documentation, governance, technical infrastructure, and **data standardization**.
+    This page helps registry holders, patient advocacy groups, and data stewards assess their **data sharing readiness**  including documentation, governance, technical infrastructure, and **data standardization**.
 
     It is especially useful for registries that include **multiple data sources** (e.g., EHR, surveys, biosamples, imaging, genomics) and want to prepare for **external data sharing, harmonization, or OMOP mapping**.
 
