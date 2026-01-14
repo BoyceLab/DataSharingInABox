@@ -1,6 +1,6 @@
 ---
 title: Data Sharing Readiness Assessment
-layout: default
+toc: true
 ---
 
 # ✅ Data Sharing Readiness Assessment
@@ -125,9 +125,10 @@ You do **not** need to complete every section to begin sharing data — use what
 
 !!! note "Optional but Powerful"
     Complete this section if you plan to:
-    - Participate in federated networks  
-    - Enable multi-registry analytics  
-    - Support reproducible, model-driven research  
+    
+      - Participate in federated networks  
+      - Enable multi-registry analytics  
+      - Support reproducible, model-driven research  
 
 ---
 
